@@ -39,6 +39,7 @@ function sumarProductos(precioUnitario, CantidadDeseada) {
 // sumarProductos(1000, 1)
 sumarProductos(precioUnitario,CantidadDeseada)
 console.log(sumarProductos)
+<<<<<<< HEAD
 
 
 
@@ -71,3 +72,5 @@ for (let pos = 0; pos < stock.length; pos++) {
     const element = stock[pos];
     console.log(stock[pos]);
 }
+=======
+>>>>>>> 81e82adc3b334a52a451bf48816e8f9ac32b7b26
