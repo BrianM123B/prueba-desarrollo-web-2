@@ -90,7 +90,7 @@ producto.categoria = "calzado";
 delete producto.CantidadDisponible;
 
 
-//clase 6
+//clase 7
 
 // let titulo = document.querySelector("h2");
 // titulo.style.color = "blue";
@@ -103,7 +103,7 @@ delete producto.CantidadDisponible;
 
 
 
-// clase 7
+// clase 8
 
 let parrafoAgregado = document.createElement("p");
 parrafoAgregado.innerText = "galleta";
@@ -111,3 +111,11 @@ console.log(parrafoAgregado);
 document.body.appendChild(parrafoAgregado);
 
 parrafoAgregado.remove();
+
+let productos = ["Duki", "YSY A", "Neo Pistea"];
+let padre = document.querySelector("#listado")
+for (let i = 0; i < productos.length; i++) {
+    let prod1 = document.createElement("h2");
+    prod1.innerText = productos[i];
+    padre.appendChild(prod1);
+}
