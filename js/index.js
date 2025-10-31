@@ -88,3 +88,26 @@ let producto ={
 producto.nombre= "Zapatillas";
 producto.categoria = "calzado";
 delete producto.CantidadDisponible;
+
+
+//clase 6
+
+// let titulo = document.querySelector("h2");
+// titulo.style.color = "blue";
+// titulo.innerText = "Gallate";
+// titulo.style.fontSize = "25px";
+
+// let precio = document.querySelector("p");
+// precio.innerText = "$800";
+
+
+
+
+// clase 7
+
+let parrafoAgregado = document.createElement("p");
+parrafoAgregado.innerText = "galleta";
+console.log(parrafoAgregado);
+document.body.appendChild(parrafoAgregado);
+
+parrafoAgregado.remove();
